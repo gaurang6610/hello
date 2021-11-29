@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID HELPLINE</title>
+</head>
+<!--<link href="https://fonts.googleapis.com/css2?family=Genos:wght@400;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="C:\Users\gaura\OneDrive\Desktop\covihelp page 3\CaseFigure_Coronavirus Structure and Protein Visualization-2.JPG"-->
+<style>
+    body {
+
+        font-weight: bold;
+        font-family: 'Genos', sans-serif;
+        /* background-image: url(https://cdn.pixabay.com/photo/2017/09/18/15/38/moon-2762111__480.jpg);*/
+
+        background-image: url(https://wallpaperaccess.com/full/136035.jpg);
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        height: 100%;
+        font-style: oblique;
+
+
+
+        color: black;
+        border: 0px;
+        padding: 0px;
+        background-color: black;
+    }
+
+    body,
+    h1 {
+        text-align: center;
+        color: white;
+        font-size: 46px;
+        font-weight: bold;
+    }
+
+    /* .logo {
+        display: inline-block;
+        border: 2px solid red;
+        top: 20px;
+        position:absolute;
+        left: 30px;
+        height: 20%;
+    }
+
+
+
+    .navbar {
+        display: block;
+        width: 70%;
+        margin: 20px auto;
+        margin-top: 5%;
+
+
+    }
+
+   
+
+    .nav {
+        display: inline-block;
+
+    }
+
+    .nav li {
+        display: inline-block;
+        font-size: 50px;
+        color: black;
+
+
+    }
+
+    .nav li a {
+        color: rgb(4, 64, 114);
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+
+    .nav li a:hover,
+    .nav li a:active {
+
+        text-decoration: underline;
+        color: rgb(175, 221, 235);
+    }
+
+    /*.logo img{
+        width: 80px;
+        text-align: center;
+    }
+    .logo div{
+        text-align:center ;
+    }*/
+    .others {
+        position: absolute;
+        right: 30px;
+        top: 20px;
+        display: inline-block;
+    }
+
+    .btn {
+        font-family: 'Genos', sans-serif;
+        padding: 13px;
+        color: white;
+        background-color: rgba(245, 245, 220, 0.068);
+        border-radius: 10px;
+        border: 2px solid rgb(70, 81, 241)
+    }
+
+    .btn:hover,
+    .btn:active {
+        text-decoration: underline;
+        color: rgb(175, 221, 235);
+
+    }
+
+    .container {
+        margin: 0px;
+        text-align: center;
+        width: 20%;
+        padding: 75px;
+    }
+
+    .form-grp input {
+
+        text-align: center;
+        margin: 10px auto;
+        padding: 10px;
+        display: block;
+        width: 400px;
+        color: white;
+        background-color: rgb(55, 55, 114);
+       border: 2px solid rgb(70, 81, 241);
+       font-weight: bold;
+       font-style:italic;
+    }
+
+
+
+    .container h1 {
+
+        color: white;
+    }
+
+    .container button {
+        display: block;
+        width: 92%;
+        margin: 28px auto;
+        font-size: 20px;
+        color: white;
+        border: 2px solid rgb(70, 81, 241);
+    }
+</style>
+
+<body>
+    <h1><strong>HELPLINE FORM</strong></h1>
+    <header class="header">
+        <!--<div class="logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-w9-AaSzDHb3Asqd_RRzkXTBDlpnZIXQqnQ&usqp=CAU" alt="">
+            <div><strong>COVID <br>HELPLINE</strong> </div>
+        </div>
+        <div class="navbar">
+            <ul class=nav>
+                <li><a href="#"><strong> COVID TRACKER</strong> </a>
+                </li>
+                <li><a href="#"><strong>COVID INFO</strong> </a>
+                </li>
+            </ul>
+
+        </div>-->
+        <div class="others">
+            <button class="btn" onclick="method()"><strong>EMAIL US</strong> </button>
+        </div>
+    </header>
+    <div class="container">
+        <!-- <h1><strong>HELPLINE FORM</strong></h1> -->
+        <form action="noaction.php">
+            <div class="form-grp">
+                <input style="font-size: 15px;" type="text" name="" placeholder="SPECIFY YOUR NAME ">
+                <input style="font-size: 15px;" type="text" name="" placeholder="SPECIFY YOUR EMAIL ID ">
+                <input style="font-size: 15px;" type="text" name="" placeholder="SPECIFY YOUR AADHAR NUMBER ">
+                <input style="font-size: 15px;" type="text" name="" placeholder="SPECIFY YOUR MOBILE NUMBER ">
+                <input style="font-size: 15px;" type="text" name="" placeholder="SPECIFY YOUR PERMANENT ADDRESS ">
+                <input style="font-size: 15px;" type="text" name="" placeholder="SPECIFY YOUR PROBLEM  ">
+
+            </div>
+        </form>
+        <button class="btn" onclick="myMethod()">SUBMIT</button>
+
+    </div>
+    <!--<img class="img1" src="./CaseFigure_Coronavirus Structure and Protein Visualization-2.JPG" alt="">-->
+</body>
+
+<script>
+    function myMethod() { alert("Form submitted successfully"); }
+    function method() { alert("Email us at gaurangswarupsharma@gmail.com") }
+</script>
+
+</html>
